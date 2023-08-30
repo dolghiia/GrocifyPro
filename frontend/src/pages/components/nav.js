@@ -19,6 +19,11 @@ const Nav = () => {
                                     <p className="site-links">Grocery</p>
                                 </Link>
                             </li>
+                            <li className="page">
+                                <Link to="/list/" className="site-links">
+                                    <p className="site-links">List</p>
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                     <p className="motto">"Your Virtual Grocery List!"</p>
