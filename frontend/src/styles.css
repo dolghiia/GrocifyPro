@@ -483,3 +483,67 @@ label.radio input:checked+span {
   list-style: none;
   padding-left: 0 !important;
 }
+
+.list-left {
+  float: left;
+  padding-left: 0.5vw;
+}
+
+.list-right {
+  float: right;
+}
+
+.listView {
+  grid-template-columns: repeat(1, 1fr) !important;
+  margin-top: 5vw !important;
+  grid-auto-rows: 9vw !important;
+  width: 48vw;
+  float: right;
+  margin-left: 15vw;
+  display: grid;
+  grid-gap: 0;
+}
+
+.listInfo {
+  width: 127px;
+}
+
+.list-name {
+  float: left;
+  padding-top: 3vw;
+  width: 35vw;
+}
+
+.list-priceinfo {
+  float: right;
+  padding-right: 2vw;
+  padding-top: 1.5vw;
+}
+
+.listCard {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  height: 8vw;
+  width: 55vw;
+}
+
+.listImage {
+  background: white !important;
+  width: 5.5vw !important;
+}
+
+.listSummary {
+  float: right;
+  display: grid;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 6vw;
+  margin-top: 5vw;
+  margin-right: 12vw;
+}
+
+.listViewPagination {
+  float: left;
+  display: grid;
+}
