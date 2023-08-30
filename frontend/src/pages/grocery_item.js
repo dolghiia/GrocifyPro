@@ -26,7 +26,6 @@ const GroceryItem = () => {
         if (obj === "nofrills" && food.prices.nofrills) {
             set_grocer("nofrills")
             set_price(food.prices.nofrills)
-            console.log("D")
         }
         else if (obj === "superstore" && food.prices.superstore) {
                 set_grocer("superstore")
